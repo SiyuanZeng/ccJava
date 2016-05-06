@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Question8_1.BlackJackCard</OriginalElement>
+  <nodes>
+    <node x="608.0" y="0.0">Question8_1.Hand</node>
+    <node x="346.99999999999994" y="772.0">Question8_1.Question</node>
+    <node x="891.0" y="236.0">Question8_1.Card</node>
+    <node x="0.0" y="168.0">Question8_1.Deck</node>
+    <node x="940.0" y="0.0">Question8_1.Suit</node>
+    <node x="284.0" y="190.5">Question8_1.BlackJackCard</node>
+    <node x="214.49999999999994" y="426.0">Question8_1.BlackJackGameAutomator</node>
+    <node x="583.0" y="179.5">Question8_1.BlackJackHand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Question8_1.BlackJackGameAutomator" target="Question8_1.BlackJackHand">
+      <point x="174.16666666666663" y="-148.0" />
+      <point x="597.6666666666665" y="406.0" />
+      <point x="780.25" y="406.0" />
+      <point x="65.75" y="92.5" />
+    </edge>
+    <edge source="Question8_1.BlackJackHand" target="Question8_1.Hand">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Question8_1.BlackJackGameAutomator" target="Question8_1.Deck">
+      <point x="-104.5" y="-148.0" />
+      <point x="318.99999999999994" y="396.0" />
+      <point x="198.0" y="396.0" />
+      <point x="66.0" y="104.0" />
+    </edge>
+    <edge source="Question8_1.BlackJackGameAutomator" target="Question8_1.BlackJackCard">
+      <point x="34.83333333333337" y="-148.0" />
+      <point x="458.3333333333333" y="406.0" />
+      <point x="493.25" y="406.0" />
+      <point x="69.75" y="81.5" />
+    </edge>
+    <edge source="Question8_1.Card" target="Question8_1.Suit">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="Question8_1.Question" target="Question8_1.BlackJackGameAutomator">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="148.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="586.0" y="411.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
