@@ -15,7 +15,7 @@ public class QuestionC {
 		int colCount = matrix[0].length;
 	
 		int[] partialSum = new int[colCount]; 
-		int maxSum = 0; // Max sum is an empty matrix
+		int maxSum = 0; // Max sumNode is an empty matrix
 	
 		for (int rowStart = 0; rowStart < rowCount; rowStart++) {
 			clearArray(partialSum);

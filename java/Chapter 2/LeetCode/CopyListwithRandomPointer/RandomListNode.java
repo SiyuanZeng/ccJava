@@ -1,19 +1,21 @@
-package CtCILibrary;
+package LeetCode.CopyListwithRandomPointer;
 
-public class LinkedListNode {
-	public LinkedListNode next;
-	public LinkedListNode prev;
-	public LinkedListNode last;
+public class RandomListNode {
+	public RandomListNode next;
+	public RandomListNode prev;
+	public RandomListNode last;
+	public RandomListNode random;
 	public int data;
-	public LinkedListNode(int d, LinkedListNode n, LinkedListNode p) {
+	public int label;
+	public RandomListNode(int d, RandomListNode n, RandomListNode p) {
 		data = d;
 		setNext(n);
 		setPrevious(p);
 	}
-	
-	public LinkedListNode() { }
 
-	public void setNext(LinkedListNode n) {
+	public RandomListNode() { }
+
+	public void setNext(RandomListNode n) {
 		next = n;
 		if (this == last) {
 			last = n;
@@ -23,7 +25,7 @@ public class LinkedListNode {
 		}
 	}
 	
-	public void setPrevious(LinkedListNode p) {
+	public void setPrevious(RandomListNode p) {
 		prev = p;
 		if (p != null && p.next != this) {
 			p.setNext(this);
@@ -46,12 +48,12 @@ public class LinkedListNode {
 		}
 	}
 	
-	public LinkedListNode clone() {
-		LinkedListNode next2 = null;
+	public RandomListNode clone() {
+		RandomListNode next2 = null;
 		if (next != null) {
 			next2 = next.clone();
 		}
-		LinkedListNode head2 = new LinkedListNode(data, next2, null);
+		RandomListNode head2 = new RandomListNode(data, next2, null);
 		return head2;
 	}
 
@@ -65,12 +67,12 @@ public class LinkedListNode {
 
         /* Check if o is an instance of Complex or not
           "null instanceof [type]" also returns false */
-		if (!(o instanceof LinkedListNode)) {
+		if (!(o instanceof RandomListNode)) {
 			return false;
 		}
 
 		// typecast o to Complex so that we can compare data members
-		LinkedListNode c = (LinkedListNode) o;
+		RandomListNode c = (RandomListNode) o;
 
 		// Compare the data members and return accordingly
 
