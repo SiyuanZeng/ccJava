@@ -14,7 +14,7 @@ public class StackData {
 	}
 	
 	public boolean isWithinStack(int index, int total_size) {
-		// Note: if stack wraps, the head (right side) wraps around to the left. 
+		// LeetCode.Traversal.Note: if stack wraps, the head (right side) wraps around to the left.
         boolean isIndexInBound = start <= index && index < start + capacity;
         boolean isIndexInLeftSide = start + capacity > total_size &&
                 index < (start + capacity) % total_size;

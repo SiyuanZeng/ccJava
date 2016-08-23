@@ -20,7 +20,7 @@ public class QuestionA {
 				for (int i = 0; i < str.length(); i++) {
 					if (str.charAt(i) == '(') {
 						String s = insertInside(str, i);
-						/* Add s to set if it is not already in there. Note: 	
+						/* Add s to set if it is not already in there. LeetCode.Traversal.Note:
 						 * HashSet automatically checks for duplicates before
 						 * adding, so an explicit check is not necessary. */
 						set.add(s);			

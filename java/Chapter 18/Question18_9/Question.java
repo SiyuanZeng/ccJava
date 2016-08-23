@@ -11,7 +11,7 @@ public class Question {
 	private static PriorityQueue<Integer> minHeap;
 
 	public static void addNewNumber(int randomNumber) {
-		/* Note: addNewNumber maintains a condition that maxHeap.size() >= minHeap.size() */
+		/* LeetCode.Traversal.Note: addNewNumber maintains a condition that maxHeap.size() >= minHeap.size() */
 		if (maxHeap.size() == minHeap.size()) {
 			if ((minHeap.peek() != null) && 
 					randomNumber > minHeap.peek()) {

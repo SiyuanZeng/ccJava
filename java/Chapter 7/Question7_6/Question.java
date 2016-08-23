@@ -21,7 +21,7 @@ public class Question {
 		return count;		
 	}
 	
-	/* Check hashmap for lines that are equivalent. Note that we need to check one epsilon above and below the actual slope
+	/* Check hashmap for lines that are equivalent. LeetCode.Traversal.Note that we need to check one epsilon above and below the actual slope
 	 * since we're defining two lines as equivalent if they're within an epsilon of each other.
 	 */
 	public static int countEquivalentLines(HashMap<Double, ArrayList<Line>> linesBySlope, Line line) {

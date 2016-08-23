@@ -10,11 +10,11 @@ import java.util.Stack;
 public class FlattenBinaryTreetoLinkedList {
     /**
      * Definition for binary tree
-     * public class TreeNode {
+     * public class LeetCode.Traversal.TreeNode {
      *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode(int x) { val = x; }
+     *     LeetCode.Traversal.TreeNode left;
+     *     LeetCode.Traversal.TreeNode right;
+     *     LeetCode.Traversal.TreeNode(int x) { val = x; }
      * }
      */
         public static void flatten(TreeNode root) {

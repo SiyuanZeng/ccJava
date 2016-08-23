@@ -23,7 +23,7 @@ class CountCharacterOccurence {
 				char c = str.charAt(0);
 				int count = str.length() - str.replace(Character.toString(c), "").length();
 				map.put(c, count);
-				str = str.replace(Character.toString(c), "");
+				str = str.replace(Character.toString(c), "");// Interesting to remove this.
 			}
 
 

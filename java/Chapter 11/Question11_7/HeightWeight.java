@@ -19,7 +19,7 @@ public class HeightWeight implements Comparable {
 		return "(" + Ht + ", " + Wt + ")";
 	}
 	
-	/* Returns true if �this� should be lined up before �other�. Note 
+	/* Returns true if �this� should be lined up before �other�. LeetCode.Traversal.Note
 	 * that it�s possible that this.isBefore(other) and 
 	 * other.isBefore(this) are both false. This is different from the 
 	 * compareTo method, where if a < b then b > a. */
