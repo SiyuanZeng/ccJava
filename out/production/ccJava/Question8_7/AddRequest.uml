@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Question8_7.AddRequest</OriginalElement>
+  <nodes>
+    <node x="435.4518229166666" y="1035.0">Question8_7.UserManager</node>
+    <node x="468.03255208333326" y="156.0">Question8_7.Conversation</node>
+    <node x="1099.0" y="0.0">Question8_7.System</node>
+    <node x="841.0" y="157.0">Question8_7.RequestStatus</node>
+    <node x="546.0" y="368.0">Question8_7.PrivateChat</node>
+    <node x="297.99999999999994" y="368.5">Question8_7.GroupChat</node>
+    <node x="61.49999999999994" y="146.0">Question8_7.UserStatusType</node>
+    <node x="283.29036458333326" y="535.0">Question8_7.User</node>
+    <node x="428.28255208333326" y="0.0">Question8_7.Message</node>
+    <node x="0.0" y="357.0">Question8_7.UserStatus</node>
+    <node x="764.0" y="335.0">Question8_7.AddRequest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Question8_7.UserManager" target="Question8_7.User">
+      <point x="43.75" y="-125.0" />
+      <point x="654.2018229166665" y="1005.0" />
+      <point x="773.0403645833333" y="1005.0" />
+      <point x="163.25" y="225.0" />
+    </edge>
+    <edge source="Question8_7.AddRequest" target="Question8_7.RequestStatus">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="Question8_7.User" target="Question8_7.UserStatus">
+      <point x="-299.2916666666664" y="-225.0" />
+      <point x="310.49869791666686" y="515.0" />
+      <point x="207.75" y="515.0" />
+      <point x="69.25" y="48.0" />
+    </edge>
+    <edge source="Question8_7.User" target="Question8_7.Message">
+      <point x="-244.87499999999977" y="-225.0" />
+      <point x="364.9153645833335" y="505.0" />
+      <point x="287.49999999999994" y="505.0" />
+      <point x="287.49999999999994" y="121.0" />
+      <point x="463.44921874999994" y="121.0" />
+      <point x="-70.33333333333333" y="48.0" />
+    </edge>
+    <edge source="Question8_7.AddRequest" target="Question8_7.User">
+      <point x="36.25" y="70.0" />
+      <point x="945.25" y="515.0" />
+      <point x="909.0820312499999" y="515.0" />
+      <point x="299.29166666666663" y="-225.0" />
+    </edge>
+    <edge source="Question8_7.Conversation" target="Question8_7.User">
+      <point x="98.625" y="59.5" />
+      <point x="698.1575520833333" y="310.0" />
+      <point x="753.5" y="310.0" />
+      <point x="753.5" y="515.0" />
+      <point x="745.8320312499999" y="515.0" />
+      <point x="136.04166666666663" y="-225.0" />
+    </edge>
+    <edge source="Question8_7.User" target="Question8_7.PrivateChat">
+      <point x="27.20833333333337" y="-225.0" />
+      <point x="636.9986979166666" y="515.0" />
+      <point x="644.5" y="515.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Question8_7.UserStatus" target="Question8_7.UserStatusType">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="Question8_7.Conversation" target="Question8_7.Message">
+      <point x="-65.75" y="-59.5" />
+      <point x="-1.4210854715202004E-14" y="48.0" />
+    </edge>
+    <edge source="Question8_7.PrivateChat" target="Question8_7.Conversation">
+      <point x="0.0" y="-37.0" />
+      <point x="644.5" y="310.0" />
+      <point x="632.4075520833333" y="310.0" />
+      <point x="32.875" y="59.5" />
+    </edge>
+    <edge source="Question8_7.User" target="Question8_7.AddRequest">
+      <point x="244.875" y="-225.0" />
+      <point x="854.6653645833333" y="515.0" />
+      <point x="872.75" y="515.0" />
+      <point x="-36.25" y="70.0" />
+    </edge>
+    <edge source="Question8_7.GroupChat" target="Question8_7.Conversation">
+      <point x="0.0" y="-36.5" />
+      <point x="411.49999999999994" y="310.0" />
+      <point x="500.90755208333326" y="310.0" />
+      <point x="-98.625" y="59.5" />
+    </edge>
+    <edge source="Question8_7.UserManager" target="Question8_7.AddRequest">
+      <point x="131.25" y="-125.0" />
+      <point x="741.7018229166665" y="1015.0" />
+      <point x="978.51953125" y="1015.0" />
+      <point x="978.51953125" y="515.0" />
+      <point x="1017.75" y="515.0" />
+      <point x="108.75" y="70.0" />
+    </edge>
+    <edge source="Question8_7.UserManager" target="Question8_7.UserStatus">
+      <point x="-131.25" y="-125.0" />
+      <point x="479.2018229166666" y="1015.0" />
+      <point x="69.24999999999994" y="1015.0" />
+      <point x="-69.25" y="48.0" />
+    </edge>
+    <edge source="Question8_7.User" target="Question8_7.GroupChat">
+      <point x="-136.04166666666652" y="-225.0" />
+      <point x="473.74869791666674" y="515.0" />
+      <point x="468.24999999999994" y="515.0" />
+      <point x="56.75" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6097560975609756" x="817.7778694158078" y="687.06529209622" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
